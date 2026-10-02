@@ -28,7 +28,8 @@ export default async function handler(req, res) {
 
     await resend.emails.send({
       from: 'Portfolio Contact <onboarding@resend.dev>', // default Resend test sender — works with no domain setup
-      to: process.env.TO_EMAIL,
+      //to: process.env.TO_EMAIL,
+      to: ["ns0012515@gmail.com"],
       reply_to: email, // so you can hit "reply" and it goes straight to the sender
       subject: `New portfolio message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
