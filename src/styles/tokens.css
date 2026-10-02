@@ -1,0 +1,65 @@
+/* ==========================================================================
+   DESIGN TOKENS — Dark Glassmorphism & Neon Glow Theme
+   ========================================================================== */
+:root {
+  /* Colors - Core Dark Theme */
+  --color-bg: #09090b;             /* Deep obsidian */
+  --color-bg-alt: #121217;         /* Slightly lighter for some sections */
+  
+  /* Glass surfaces */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-bg-hover: rgba(255, 255, 255, 0.09);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-border-highlight: rgba(255, 255, 255, 0.25);
+  
+  /* Text Colors */
+  --color-paper: #f8fafc;          /* Pure crisp text */
+  --color-graphite: #94a3b8;       /* Muted text */
+  --color-graphite-dim: #64748b;   /* Very muted text */
+  
+  /* Accents - Neon Purple to Cyan gradient elements */
+  --color-accent: #8b5cf6;         /* Primary Purple */
+  --color-accent-soft: rgba(139, 92, 246, 0.15);
+  --color-accent-glow: rgba(139, 92, 246, 0.5);
+  
+  --gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+  --gradient-text: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
+  --gradient-glow: linear-gradient(135deg, rgba(139, 92, 246, 0.5) 0%, rgba(59, 130, 246, 0.5) 100%);
+
+  /* Lines & Dividers */
+  --color-line: rgba(255, 255, 255, 0.08);
+  --color-line-strong: rgba(255, 255, 255, 0.15);
+
+  /* Shadows for depth */
+  --shadow-glow: 0 0 20px rgba(139, 92, 246, 0.25);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 1px rgba(255, 255, 255, 0.15), inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+
+  /* Typography */
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Font Sizes */
+  --fs-hero: clamp(2.2rem, 8vw, 5.5rem);
+  --fs-h2: clamp(1.8rem, 6vw, 3.5rem);
+  --fs-h3: clamp(1.2rem, 3vw, 1.8rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-eyebrow: 0.85rem;
+
+  /* Layout */
+  --container-max: 1200px;
+  --space-section: clamp(4rem, 12vw, 10rem);
+  --space-lg: 3rem;
+  --space-md: 1.5rem;
+  --space-sm: 0.75rem;
+  --radius-lg: 24px;
+  --radius: 16px;
+  --radius-sm: 8px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.25, 1, 0.5, 1); /* Snappy out, slow in */
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy */
+  --transition: 0.3s var(--ease);
+  --transition-slow: 0.5s var(--ease);
+}

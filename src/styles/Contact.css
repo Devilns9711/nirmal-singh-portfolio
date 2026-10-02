@@ -1,0 +1,80 @@
+.contact { max-width: 680px; margin: 0 auto; text-align: center; }
+
+.contact__intro { 
+  color: var(--color-graphite); 
+  margin-top: -0.5rem; 
+  margin-bottom: 3rem; 
+  font-size: 1.1rem;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  background: var(--glass-bg);
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-glass);
+  backdrop-filter: blur(12px);
+  text-align: left;
+}
+
+.contact__form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-weight: 500;
+  color: var(--color-paper);
+}
+
+.contact__form input,
+.contact__form textarea {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  color: var(--color-paper);
+  resize: vertical;
+  transition: all var(--transition);
+}
+.contact__form input:focus,
+.contact__form textarea:focus { 
+  border-color: var(--color-accent); 
+  outline: none; 
+  background: rgba(139, 92, 246, 0.05);
+  box-shadow: 0 0 0 3px var(--color-accent-soft);
+}
+
+.contact__form button { align-self: flex-start; margin-top: 0.5rem; }
+
+.contact__status { margin-top: 1rem; font-weight: 500; text-align: center; }
+.contact__status--ok { color: #10b981; } /* Emerald */
+.contact__status--err { color: #ef4444; } /* Red */
+
+.contact__socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-line);
+}
+.contact__socials a {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  transition: all var(--transition);
+}
+.contact__socials a:hover {
+  background: var(--color-accent);
+  color: #fff;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
