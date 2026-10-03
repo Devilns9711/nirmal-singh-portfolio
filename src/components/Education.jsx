@@ -16,7 +16,7 @@ function Education() {
           </p>
         </div>
 
-        { add 12th / 10th here if you want them listed }
+        { /* add 12th / 10th here if you want them listed */ }
       </div>
     </section>
   )
