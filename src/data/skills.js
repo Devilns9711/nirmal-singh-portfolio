@@ -2,7 +2,7 @@
 const skills = [
   {
     group: 'Languages',
-    items: ['HTML5', 'CSS3', 'JavaScript' , 'Python','React(Learning)','C Language','C++'],
+    items: ['HTML5', 'CSS3', 'JavaScript' , 'JAVA' , 'Python','React(Learning)','C Language','C++'],
   },
   {
     group: 'CS Fundamentals',
