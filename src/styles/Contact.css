@@ -2,7 +2,7 @@
 
 .contact__intro { 
   color: var(--color-graphite); 
-  margin-top: -0.5rem; 
+  margin-top: 0.5rem; 
   margin-bottom: 3rem; 
   font-size: 1.1rem;
 }
