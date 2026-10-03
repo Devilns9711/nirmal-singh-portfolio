@@ -3,7 +3,7 @@ import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
-// import Experience from './components/Experience.jsx'
+import Experience from './components/Experience.jsx'
 import Education from './components/Education.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
@@ -20,7 +20,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        {/* <Experience /> */}
+        <Experience />
         <Education />
         <Contact />
       </main>
