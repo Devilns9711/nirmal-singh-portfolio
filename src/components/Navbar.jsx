@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__inner">
-        <a href="#top" className="navbar__logo">Devil<span className="navbar__cursor">_</span></a>
+        <a href="#top" className="navbar__logo">Nirmal<span className="navbar__cursor">_</span></a>
 
         <nav className="navbar__links navbar__links--desktop">
           {links.map((l) => (
